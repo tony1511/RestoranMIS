@@ -1,0 +1,1 @@
+C:\C#\Projects\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe.config
