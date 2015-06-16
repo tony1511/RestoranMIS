@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoranMIS_UI", "RestoranMIS_UI\RestoranMIS_UI.csproj", "{97099141-225D-453E-A902-AEDAEDDDAC7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoranMIS_DAL", "RestoranMIS_DAL\RestoranMIS_DAL.csproj", "{9B1655C7-5C48-45B4-9782-7DA5436F5A77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{97099141-225D-453E-A902-AEDAEDDDAC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97099141-225D-453E-A902-AEDAEDDDAC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97099141-225D-453E-A902-AEDAEDDDAC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1655C7-5C48-45B4-9782-7DA5436F5A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1655C7-5C48-45B4-9782-7DA5436F5A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1655C7-5C48-45B4-9782-7DA5436F5A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1655C7-5C48-45B4-9782-7DA5436F5A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,3 +7,6 @@ C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Propertie
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csproj.GenerateResource.Cache
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.exe
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.pdb
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.pdb
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Employees.resources
