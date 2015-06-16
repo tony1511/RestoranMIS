@@ -1,1 +1,9 @@
 C:\C#\Projects\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe.config
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe.config
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.pdb
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csprojResolveAssemblyReference.cache
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Properties.Resources.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csproj.GenerateResource.Cache
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.exe
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.pdb
