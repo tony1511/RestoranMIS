@@ -26,3 +26,4 @@ C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Restora
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.pdb
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.dll
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.pdb
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_OnlineOrders.resources

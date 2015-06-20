@@ -33,6 +33,7 @@
             this.orderDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employerDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.onlineOrdersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,8 @@
             // ordersToolStripMenuItem
             // 
             this.ordersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.orderDetailsToolStripMenuItem});
+            this.orderDetailsToolStripMenuItem,
+            this.onlineOrdersToolStripMenuItem});
             this.ordersToolStripMenuItem.Name = "ordersToolStripMenuItem";
             this.ordersToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.ordersToolStripMenuItem.Text = "Orders";
@@ -76,6 +78,13 @@
             this.employerDetailsToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.employerDetailsToolStripMenuItem.Text = "Employer Details";
             this.employerDetailsToolStripMenuItem.Click += new System.EventHandler(this.employerDetailsToolStripMenuItem_Click);
+            // 
+            // onlineOrdersToolStripMenuItem
+            // 
+            this.onlineOrdersToolStripMenuItem.Name = "onlineOrdersToolStripMenuItem";
+            this.onlineOrdersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.onlineOrdersToolStripMenuItem.Text = "Online Orders";
+            this.onlineOrdersToolStripMenuItem.Click += new System.EventHandler(this.onlineOrdersToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -104,5 +113,6 @@
         private System.Windows.Forms.ToolStripMenuItem orderDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem employersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem employerDetailsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem onlineOrdersToolStripMenuItem;
     }
 }

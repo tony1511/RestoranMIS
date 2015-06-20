@@ -30,5 +30,12 @@ namespace RestoranMIS_UI
             employees.MdiParent = this;
             employees.Show();
         }
+
+        private void onlineOrdersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_OnlineOrders onlineOrders = new Frm_OnlineOrders();
+            onlineOrders.MdiParent = this;
+            onlineOrders.Show();
+        }
     }
 }
