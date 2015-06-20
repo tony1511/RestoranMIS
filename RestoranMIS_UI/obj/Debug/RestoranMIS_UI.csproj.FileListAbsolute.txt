@@ -10,3 +10,19 @@ C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.pdb
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.dll
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.pdb
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Employees.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe.config
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.exe
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.pdb
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csprojResolveAssemblyReference.cache
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Employees.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Orders.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.MainForm.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Properties.Resources.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmOrderDetailsReport.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csproj.GenerateResource.Cache
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.cache
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.compiled
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.pdb
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.pdb

@@ -4,3 +4,9 @@ C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_DAL\bin\Debug\RestoranMIS_DAL.pdb
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_DAL\obj\Debug\RestoranMIS_DAL.csprojResolveAssemblyReference.cache
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_DAL\obj\Debug\RestoranMIS_DAL.dll
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_DAL\obj\Debug\RestoranMIS_DAL.pdb
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_DAL\bin\Debug\RestoranMIS_DAL.dll.config
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_DAL\bin\Debug\RestoranMIS_DAL.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_DAL\bin\Debug\RestoranMIS_DAL.pdb
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_DAL\obj\Debug\RestoranMIS_DAL.csprojResolveAssemblyReference.cache
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_DAL\obj\Debug\RestoranMIS_DAL.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_DAL\obj\Debug\RestoranMIS_DAL.pdb

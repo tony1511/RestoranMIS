@@ -16,7 +16,7 @@ namespace RestoranMIS_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Employees());
+            Application.Run(new MainForm());
         }
     }
 }

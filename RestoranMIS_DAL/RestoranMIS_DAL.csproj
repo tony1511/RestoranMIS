@@ -42,13 +42,26 @@
   <ItemGroup>
     <Compile Include="Connection.cs" />
     <Compile Include="DAEmployees.cs" />
+    <Compile Include="DAOrderDetails.cs" />
+    <Compile Include="DAOrders.cs" />
     <Compile Include="DSEmployees.cs">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="DSEmployees.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DSEmployees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSOrderDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOrderDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSOrders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOrders.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -69,6 +82,28 @@
     </None>
     <None Include="DSEmployees.xss">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
+    </None>
+    <None Include="DSOrderDetails.xsc">
+      <DependentUpon>DSOrderDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DSOrderDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOrderDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSOrderDetails.xss">
+      <DependentUpon>DSOrderDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DSOrders.xsc">
+      <DependentUpon>DSOrders.xsd</DependentUpon>
+    </None>
+    <None Include="DSOrders.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOrders.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSOrders.xss">
+      <DependentUpon>DSOrders.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
