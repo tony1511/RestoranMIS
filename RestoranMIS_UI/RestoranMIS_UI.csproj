@@ -32,9 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,6 +66,12 @@
     <Compile Include="Frm_Orders.Designer.cs">
       <DependentUpon>Frm_Orders.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Reservation.Designer.cs">
+      <DependentUpon>Frm_Reservation.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +86,12 @@
     <Compile Include="Reports\frmOrderDetailsReport.Designer.cs">
       <DependentUpon>frmOrderDetailsReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\frmReservationReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReservationReport.Designer.cs">
+      <DependentUpon>frmReservationReport.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Frm_Employees.resx">
       <DependentUpon>Frm_Employees.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Orders.resx">
       <DependentUpon>Frm_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Reservation.resx">
+      <DependentUpon>Frm_Reservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -102,7 +119,12 @@
     <EmbeddedResource Include="Reports\frmOrderDetailsReport.resx">
       <DependentUpon>frmOrderDetailsReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReservationReport.resx">
+      <DependentUpon>frmReservationReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptOrderDetails.rdlc" />
+    <EmbeddedResource Include="Reports\rptReservations.rdlc" />
+    <None Include="Properties\DataSources\RestoranMIS_DAL.DSReservations.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

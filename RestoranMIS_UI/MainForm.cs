@@ -37,5 +37,12 @@ namespace RestoranMIS_UI
             onlineOrders.MdiParent = this;
             onlineOrders.Show();
         }
+
+        private void reservarionDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Reservation reservation = new Frm_Reservation();
+            reservation.MdiParent = this;
+            reservation.Show();
+        }
     }
 }

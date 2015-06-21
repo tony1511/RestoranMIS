@@ -31,9 +31,11 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.ordersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.orderDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.onlineOrdersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.employerDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.onlineOrdersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservarionDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +43,8 @@
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ordersToolStripMenuItem,
-            this.employersToolStripMenuItem});
+            this.employersToolStripMenuItem,
+            this.reservationsToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(720, 24);
@@ -64,6 +67,13 @@
             this.orderDetailsToolStripMenuItem.Text = "Order Details";
             this.orderDetailsToolStripMenuItem.Click += new System.EventHandler(this.orderDetailsToolStripMenuItem_Click);
             // 
+            // onlineOrdersToolStripMenuItem
+            // 
+            this.onlineOrdersToolStripMenuItem.Name = "onlineOrdersToolStripMenuItem";
+            this.onlineOrdersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.onlineOrdersToolStripMenuItem.Text = "Online Orders";
+            this.onlineOrdersToolStripMenuItem.Click += new System.EventHandler(this.onlineOrdersToolStripMenuItem_Click);
+            // 
             // employersToolStripMenuItem
             // 
             this.employersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -79,12 +89,20 @@
             this.employerDetailsToolStripMenuItem.Text = "Employer Details";
             this.employerDetailsToolStripMenuItem.Click += new System.EventHandler(this.employerDetailsToolStripMenuItem_Click);
             // 
-            // onlineOrdersToolStripMenuItem
+            // reservationsToolStripMenuItem
             // 
-            this.onlineOrdersToolStripMenuItem.Name = "onlineOrdersToolStripMenuItem";
-            this.onlineOrdersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.onlineOrdersToolStripMenuItem.Text = "Online Orders";
-            this.onlineOrdersToolStripMenuItem.Click += new System.EventHandler(this.onlineOrdersToolStripMenuItem_Click);
+            this.reservationsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reservarionDetailsToolStripMenuItem});
+            this.reservationsToolStripMenuItem.Name = "reservationsToolStripMenuItem";
+            this.reservationsToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.reservationsToolStripMenuItem.Text = "Reservations";
+            // 
+            // reservarionDetailsToolStripMenuItem
+            // 
+            this.reservarionDetailsToolStripMenuItem.Name = "reservarionDetailsToolStripMenuItem";
+            this.reservarionDetailsToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.reservarionDetailsToolStripMenuItem.Text = "Reservarion Details";
+            this.reservarionDetailsToolStripMenuItem.Click += new System.EventHandler(this.reservarionDetailsToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -114,5 +132,7 @@
         private System.Windows.Forms.ToolStripMenuItem employersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem employerDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem onlineOrdersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservarionDetailsToolStripMenuItem;
     }
 }
