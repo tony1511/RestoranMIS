@@ -12,6 +12,7 @@ namespace RestoranMIS_DAL
     {
         public static void GetOrders(DSOrders.NarudzbasDataTable dtOrders, DateTime? startDate, DateTime? endDate)
         {
+            //Brise sve elemente iz tabele dtOrders, svakim pozivom ove funkcije tabela se prazni te se dodaju novi podaci
             dtOrders.Clear();
 
             SqlConnection cn = Connection.GetConnection();
@@ -39,6 +40,7 @@ namespace RestoranMIS_DAL
 
         public static void GetOnlineOrders(DSOrders.NarudzbasDataTable dtOrders, DateTime? startDate, DateTime? endDate)
         {
+            //Brise sve elemente iz tabele dtOrders, svakim pozivom ove funkcije tabela se prazni te se dodaju novi podaci
             dtOrders.Clear();
 
             SqlConnection cn = Connection.GetConnection();

@@ -36,11 +36,12 @@ namespace RestoranMIS_UI
         {
 
         }
-
+        // Dvostukim klikom na bilo koju ćeliju aktivira se funkcija koja za biranu narudzbu izlistava sve njene stavke
         private void ordersGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DSOrderDetails.StavkaNarudzbesDataTable dtOrderDetails = new DSOrderDetails.StavkaNarudzbesDataTable();
 
+            // Dobijam orderId parametar iz selektovanog reda, prva kolona
             int orderId = Convert.ToInt32(ordersGridView.SelectedRows[0].Cells[0].Value);
 
             DAOrderDetails.GetOrderDetailsByOrderID(dtOrderDetails, orderId);
