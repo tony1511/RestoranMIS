@@ -32,10 +32,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -66,6 +79,24 @@
     <Compile Include="Frm_Orders.Designer.cs">
       <DependentUpon>Frm_Orders.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Products.Designer.cs">
+      <DependentUpon>Frm_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ProductsMostSold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ProductsMostSold.Designer.cs">
+      <DependentUpon>Frm_ProductsMostSold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ProductsSold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ProductsSold.Designer.cs">
+      <DependentUpon>Frm_ProductsSold.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Reservation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +117,24 @@
     <Compile Include="Reports\frmOrderDetailsReport.Designer.cs">
       <DependentUpon>frmOrderDetailsReport.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\frmProductsMostSoldReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmProductsMostSoldReport.Designer.cs">
+      <DependentUpon>frmProductsMostSoldReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmProductsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmProductsReport.Designer.cs">
+      <DependentUpon>frmProductsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmProductsSoldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmProductsSoldForm.Designer.cs">
+      <DependentUpon>frmProductsSoldForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\frmReservationReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +149,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Orders.resx">
       <DependentUpon>Frm_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Products.resx">
+      <DependentUpon>Frm_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ProductsMostSold.resx">
+      <DependentUpon>Frm_ProductsMostSold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ProductsSold.resx">
+      <DependentUpon>Frm_ProductsSold.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Reservation.resx">
       <DependentUpon>Frm_Reservation.cs</DependentUpon>
@@ -119,11 +177,25 @@
     <EmbeddedResource Include="Reports\frmOrderDetailsReport.resx">
       <DependentUpon>frmOrderDetailsReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmProductsMostSoldReport.resx">
+      <DependentUpon>frmProductsMostSoldReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmProductSoldReport.rdlc" />
+    <EmbeddedResource Include="Reports\frmProductsReport.resx">
+      <DependentUpon>frmProductsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmProductsSoldForm.resx">
+      <DependentUpon>frmProductsSoldForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\frmReservationReport.resx">
       <DependentUpon>frmReservationReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\rptOrderDetails.rdlc" />
+    <EmbeddedResource Include="Reports\rptProducts.rdlc" />
+    <EmbeddedResource Include="Reports\rptProductsMostSold.rdlc" />
     <EmbeddedResource Include="Reports\rptReservations.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\RestoranMIS_DAL.DSProducts.datasource" />
     <None Include="Properties\DataSources\RestoranMIS_DAL.DSReservations.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

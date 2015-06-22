@@ -32,7 +32,7 @@ namespace RestoranMIS_DAL
             }
             finally
             {
-
+                cn.Close();
             }
         }
     }

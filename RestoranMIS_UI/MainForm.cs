@@ -44,5 +44,26 @@ namespace RestoranMIS_UI
             reservation.MdiParent = this;
             reservation.Show();
         }
+
+        private void productDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Products products = new Frm_Products();
+            products.MdiParent = this;
+            products.Show();
+        }
+
+        private void productsMostSoldToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ProductsMostSold productsMostSold = new Frm_ProductsMostSold();
+            productsMostSold.MdiParent = this;
+            productsMostSold.Show();
+        }
+
+        private void productsSoldToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_ProductsSold productsSold = new Frm_ProductsSold();
+            productsSold.MdiParent = this;
+            productsSold.Show();
+        }
     }
 }

@@ -41,10 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
+    <Compile Include="DACategories.cs" />
     <Compile Include="DAEmployees.cs" />
     <Compile Include="DAOrderDetails.cs" />
     <Compile Include="DAOrders.cs" />
+    <Compile Include="DAProducts.cs" />
     <Compile Include="DAReservations.cs" />
+    <Compile Include="DSCategories.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCategories.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DSEmployees.cs">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
       <SubType>Component</SubType>
@@ -64,6 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSOrders.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DSProducts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSProducts.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DSReservations.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -78,6 +90,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DSCategories.xsc">
+      <DependentUpon>DSCategories.xsd</DependentUpon>
+    </None>
+    <None Include="DSCategories.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCategories.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSCategories.xss">
+      <DependentUpon>DSCategories.xsd</DependentUpon>
+    </None>
     <None Include="DSEmployees.xsc">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
     </None>
@@ -110,6 +133,17 @@
     </None>
     <None Include="DSOrders.xss">
       <DependentUpon>DSOrders.xsd</DependentUpon>
+    </None>
+    <None Include="DSProducts.xsc">
+      <DependentUpon>DSProducts.xsd</DependentUpon>
+    </None>
+    <None Include="DSProducts.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSProducts.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSProducts.xss">
+      <DependentUpon>DSProducts.xsd</DependentUpon>
     </None>
     <None Include="DSReservations.xsc">
       <DependentUpon>DSReservations.xsd</DependentUpon>

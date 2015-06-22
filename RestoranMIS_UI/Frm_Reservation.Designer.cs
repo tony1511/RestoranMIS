@@ -41,13 +41,17 @@
             this.BrojStola = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnPrint = new System.Windows.Forms.Button();
             this.prikaziSveButton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.reservationGridView)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(251, 30);
+            this.label1.Location = new System.Drawing.Point(15, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 13);
             this.label1.TabIndex = 3;
@@ -55,16 +59,16 @@
             // 
             // dateDatePicker
             // 
-            this.dateDatePicker.Location = new System.Drawing.Point(362, 28);
+            this.dateDatePicker.Location = new System.Drawing.Point(126, 40);
             this.dateDatePicker.Name = "dateDatePicker";
             this.dateDatePicker.Size = new System.Drawing.Size(144, 20);
             this.dateDatePicker.TabIndex = 2;
             // 
             // filtrirajButton
             // 
-            this.filtrirajButton.Location = new System.Drawing.Point(532, 30);
+            this.filtrirajButton.Location = new System.Drawing.Point(306, 26);
             this.filtrirajButton.Name = "filtrirajButton";
-            this.filtrirajButton.Size = new System.Drawing.Size(101, 23);
+            this.filtrirajButton.Size = new System.Drawing.Size(104, 45);
             this.filtrirajButton.TabIndex = 6;
             this.filtrirajButton.Text = "Filtriraj";
             this.filtrirajButton.UseVisualStyleBackColor = true;
@@ -81,7 +85,7 @@
             this.BrOsoba,
             this.ImeRezervacije,
             this.BrojStola});
-            this.reservationGridView.Location = new System.Drawing.Point(12, 77);
+            this.reservationGridView.Location = new System.Drawing.Point(12, 128);
             this.reservationGridView.Name = "reservationGridView";
             this.reservationGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.reservationGridView.Size = new System.Drawing.Size(870, 333);
@@ -134,9 +138,9 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(799, 428);
+            this.btnPrint.Location = new System.Drawing.Point(106, 26);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(83, 23);
+            this.btnPrint.Size = new System.Drawing.Size(115, 45);
             this.btnPrint.TabIndex = 9;
             this.btnPrint.Text = "Printaj";
             this.btnPrint.UseVisualStyleBackColor = true;
@@ -144,33 +148,55 @@
             // 
             // prikaziSveButton
             // 
-            this.prikaziSveButton.Location = new System.Drawing.Point(781, 30);
+            this.prikaziSveButton.Location = new System.Drawing.Point(441, 26);
             this.prikaziSveButton.Name = "prikaziSveButton";
-            this.prikaziSveButton.Size = new System.Drawing.Size(101, 23);
+            this.prikaziSveButton.Size = new System.Drawing.Size(101, 45);
             this.prikaziSveButton.TabIndex = 10;
             this.prikaziSveButton.Text = "Prikazi sve";
             this.prikaziSveButton.UseVisualStyleBackColor = true;
             this.prikaziSveButton.Click += new System.EventHandler(this.prikaziSveButton_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.prikaziSveButton);
+            this.groupBox1.Controls.Add(this.dateDatePicker);
+            this.groupBox1.Controls.Add(this.filtrirajButton);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(575, 100);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Filter rezervacija";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnPrint);
+            this.groupBox2.Location = new System.Drawing.Point(593, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(284, 100);
+            this.groupBox2.TabIndex = 12;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Print";
+            // 
             // Frm_Reservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 473);
-            this.Controls.Add(this.prikaziSveButton);
-            this.Controls.Add(this.btnPrint);
+            this.ClientSize = new System.Drawing.Size(889, 473);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.reservationGridView);
-            this.Controls.Add(this.filtrirajButton);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dateDatePicker);
             this.Name = "Frm_Reservation";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rezervacije";
             this.Load += new System.EventHandler(this.Frm_Reservation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.reservationGridView)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -189,5 +215,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ImeRezervacije;
         private System.Windows.Forms.DataGridViewTextBoxColumn BrojStola;
         private System.Windows.Forms.Button prikaziSveButton;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

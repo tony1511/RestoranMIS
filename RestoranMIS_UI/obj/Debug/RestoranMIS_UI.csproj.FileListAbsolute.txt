@@ -29,3 +29,12 @@ C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Restora
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_OnlineOrders.resources
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Reservation.resources
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmReservationReport.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Products.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsReport.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsMostSold.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsSold.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsSoldForm.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsMostSoldReport.resources

@@ -25,7 +25,7 @@ namespace RestoranMIS_DAL
             }
             finally
             {
-                    
+                
             }
         }
     }

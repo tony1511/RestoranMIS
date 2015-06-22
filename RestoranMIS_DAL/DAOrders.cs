@@ -34,7 +34,7 @@ namespace RestoranMIS_DAL
             }
             finally
             {
-                
+                cn.Close();
             }
         }
 
@@ -63,7 +63,7 @@ namespace RestoranMIS_DAL
             }
             finally
             {
-
+                cn.Close();
             }
         }
 
