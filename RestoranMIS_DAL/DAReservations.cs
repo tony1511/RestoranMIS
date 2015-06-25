@@ -10,7 +10,7 @@ namespace RestoranMIS_DAL
 {
     public class DAReservations
     {
-        public static void GetReservations(DSReservations.RezervacijasDataTable dtReservations, DateTime? pickDate)
+        public static void GetReservations(DSReservations.RezervacijasDataTable dtReservations, DateTime? pickDate, int? customerId)
         {
             dtReservations.Clear();
 
@@ -25,6 +25,11 @@ namespace RestoranMIS_DAL
                 if (pickDate != null)
                 {
                     cmd.Parameters.Add("@Date", SqlDbType.DateTime).Value = pickDate.Value.Date;
+                }
+
+                if (customerId != null)
+                {
+                    cmd.Parameters.Add("@CustomerId", SqlDbType.Int).Value = customerId;
                 }
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);

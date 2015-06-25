@@ -65,5 +65,18 @@ namespace RestoranMIS_UI
             productsSold.MdiParent = this;
             productsSold.Show();
         }
+
+        private void customerDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Customers customers = new Frm_Customers();
+            customers.MdiParent = this;
+            customers.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

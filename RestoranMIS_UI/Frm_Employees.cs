@@ -24,7 +24,7 @@ namespace RestoranMIS_UI
             DSEmployees.EmployeesDataTable dtEmployee = new DSEmployees.EmployeesDataTable();
 
             DAEmployees.GetEmployees(dtEmployee);
-
+            dgEmployees.AutoGenerateColumns = false;
             dgEmployees.DataSource = dtEmployee;
         }
     }

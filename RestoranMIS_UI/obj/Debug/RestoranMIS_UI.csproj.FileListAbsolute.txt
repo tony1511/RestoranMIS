@@ -38,3 +38,34 @@ C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\Restora
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsSold.resources
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsSoldForm.resources
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsMostSoldReport.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_OnlineOrders.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Orders.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Products.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsMostSold.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsSold.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Reservation.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.MainForm.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmOrderDetailsReport.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsMostSoldReport.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsReport.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsSoldForm.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmReservationReport.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.cache
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.compiled
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customers.resources

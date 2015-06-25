@@ -16,6 +16,7 @@ namespace RestoranMIS_UI
     {
         
         private DSOrderDetails.StavkaNarudzbesDataTable dtOrderDetails = new DSOrderDetails.StavkaNarudzbesDataTable();
+        public int? customerId { get; set; }
         public Frm_Orders()
         {
             InitializeComponent();
@@ -25,9 +26,10 @@ namespace RestoranMIS_UI
         private void Frm_Orders_Load(object sender, EventArgs e)
         {
             DSOrders.NarudzbasDataTable dtOrders = new DSOrders.NarudzbasDataTable();
-
-            DAOrders.GetOrders(dtOrders, null, null);
-
+            if(!customerId.HasValue)
+            DAOrders.GetOrders(dtOrders, null, null, 17);
+            else
+            DAOrders.GetOrders(dtOrders, null, null, customerId);
             ordersGridView.AutoGenerateColumns = false;
             ordersGridView.DataSource = dtOrders;
         }
@@ -55,7 +57,7 @@ namespace RestoranMIS_UI
         {
             DSOrders.NarudzbasDataTable dtOrders = new DSOrders.NarudzbasDataTable();
 
-            DAOrders.GetOrders(dtOrders, dateStartPicker.Value, dateEndPicker.Value);
+            DAOrders.GetOrders(dtOrders, dateStartPicker.Value, dateEndPicker.Value, customerId);
 
             ordersGridView.AutoGenerateColumns = false;
             ordersGridView.DataSource = dtOrders;
@@ -65,8 +67,6 @@ namespace RestoranMIS_UI
 
         private void ordersGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
-
             int orderId = Convert.ToInt32(ordersGridView.SelectedRows[0].Cells[0].Value);
 
             DAOrderDetails.GetOrderDetailsByOrderID(dtOrderDetails, orderId);

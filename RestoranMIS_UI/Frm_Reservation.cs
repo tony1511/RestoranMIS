@@ -15,6 +15,7 @@ namespace RestoranMIS_UI
     public partial class Frm_Reservation : Form
     {
         private DSReservations.RezervacijasDataTable dtReservations = new DSReservations.RezervacijasDataTable();
+        public int? customerId { get; set; }
         public Frm_Reservation()
         {
             InitializeComponent();
@@ -27,7 +28,10 @@ namespace RestoranMIS_UI
 
         private void BindReservationGrid()
         {
-            DAReservations.GetReservations(dtReservations, null);
+            if (!customerId.HasValue)
+                DAReservations.GetReservations(dtReservations, null,null);
+            else
+            DAReservations.GetReservations(dtReservations, null, customerId);
 
             reservationGridView.AutoGenerateColumns = false;
             reservationGridView.DataSource = dtReservations;
@@ -36,7 +40,7 @@ namespace RestoranMIS_UI
         private void filtrirajButton_Click(object sender, EventArgs e)
         {
 
-            DAReservations.GetReservations(dtReservations, dateDatePicker.Value);
+            DAReservations.GetReservations(dtReservations, dateDatePicker.Value, customerId);
 
             reservationGridView.AutoGenerateColumns = false;
             reservationGridView.DataSource = dtReservations;

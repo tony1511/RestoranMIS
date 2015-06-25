@@ -10,7 +10,7 @@ namespace RestoranMIS_DAL
 {
     public class DAOrders
     {
-        public static void GetOrders(DSOrders.NarudzbasDataTable dtOrders, DateTime? startDate, DateTime? endDate)
+        public static void GetOrders(DSOrders.NarudzbasDataTable dtOrders, DateTime? startDate, DateTime? endDate, int? customerId)
         {
             //Brise sve elemente iz tabele dtOrders, svakim pozivom ove funkcije tabela se prazni te se dodaju novi podaci
             dtOrders.Clear();
@@ -28,6 +28,9 @@ namespace RestoranMIS_DAL
                     cmd.Parameters.Add("@DateBegin", SqlDbType.DateTime).Value = startDate;
                     cmd.Parameters.Add("@DateEnd", SqlDbType.DateTime).Value = endDate;
                 }
+                
+                if(customerId != null)
+                    cmd.Parameters.Add("@CustomerId", SqlDbType.Int).Value = customerId;
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 adapter.Fill(dtOrders);

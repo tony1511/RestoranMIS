@@ -30,8 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Connection.cs" />
     <Compile Include="DACategories.cs" />
+    <Compile Include="DACustomers.cs" />
     <Compile Include="DAEmployees.cs" />
     <Compile Include="DAOrderDetails.cs" />
     <Compile Include="DAOrders.cs" />
@@ -52,9 +58,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSCategories.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DSCustomers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSCustomers.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DSEmployees.cs">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="DSEmployees.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -100,6 +110,17 @@
     </None>
     <None Include="DSCategories.xss">
       <DependentUpon>DSCategories.xsd</DependentUpon>
+    </None>
+    <None Include="DSCustomers.xsc">
+      <DependentUpon>DSCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="DSCustomers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSCustomers.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSCustomers.xss">
+      <DependentUpon>DSCustomers.xsd</DependentUpon>
     </None>
     <None Include="DSEmployees.xsc">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
@@ -156,6 +177,7 @@
     <None Include="DSReservations.xss">
       <DependentUpon>DSReservations.xsd</DependentUpon>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
