@@ -27,7 +27,7 @@ namespace RestoranMIS_UI
         {
             DSOrders.NarudzbasDataTable dtOrders = new DSOrders.NarudzbasDataTable();
             if(!customerId.HasValue)
-            DAOrders.GetOrders(dtOrders, null, null, 17);
+            DAOrders.GetOrders(dtOrders, null, null, null);
             else
             DAOrders.GetOrders(dtOrders, null, null, customerId);
             ordersGridView.AutoGenerateColumns = false;

@@ -69,3 +69,4 @@ C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.xml
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customers.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customer_Spendings.resources

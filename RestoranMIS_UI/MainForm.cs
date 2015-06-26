@@ -73,10 +73,16 @@ namespace RestoranMIS_UI
             customers.Show();
         }
 
+        private void customerSpendingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Customer_Spendings spendings = new Frm_Customer_Spendings();
+            spendings.MdiParent = this;
+            spendings.Show();
+        }
+
         private void MainForm_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }

@@ -86,6 +86,12 @@
     <Compile Include="Frm_Customers.Designer.cs">
       <DependentUpon>Frm_Customers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Customer_Spendings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Customer_Spendings.Designer.cs">
+      <DependentUpon>Frm_Customer_Spendings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Employees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Frm_Customers.resx">
       <DependentUpon>Frm_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Customer_Spendings.resx">
+      <DependentUpon>Frm_Customer_Spendings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Employees.resx">
       <DependentUpon>Frm_Employees.cs</DependentUpon>

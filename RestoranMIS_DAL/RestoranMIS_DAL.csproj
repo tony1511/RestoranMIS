@@ -53,6 +53,7 @@
     <Compile Include="DAOrders.cs" />
     <Compile Include="DAProducts.cs" />
     <Compile Include="DAReservations.cs" />
+    <Compile Include="DASpendings.cs" />
     <Compile Include="DSCategories.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -90,6 +91,14 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DSReservations.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSSpendings.cs">
+      <DependentUpon>DSSpendings.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSSpendings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSSpendings.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -176,6 +185,17 @@
     </None>
     <None Include="DSReservations.xss">
       <DependentUpon>DSReservations.xsd</DependentUpon>
+    </None>
+    <None Include="DSSpendings.xsc">
+      <DependentUpon>DSSpendings.xsd</DependentUpon>
+    </None>
+    <None Include="DSSpendings.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSSpendings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSSpendings.xss">
+      <DependentUpon>DSSpendings.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
