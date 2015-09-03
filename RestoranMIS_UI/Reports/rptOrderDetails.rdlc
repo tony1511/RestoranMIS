@@ -17,7 +17,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ExecutionTime</rd:DefaultName>
-        <Top>4.30361cm</Top>
+        <Top>6.20861cm</Top>
         <Left>12.43224cm</Left>
         <Height>0.6cm</Height>
         <Width>5.675cm</Width>
@@ -415,7 +415,7 @@
         </Style>
       </Tablix>
       <Line Name="Line1">
-        <Top>2.36333cm</Top>
+        <Top>5.22083cm</Top>
         <Left>12.98787cm</Left>
         <Height>0cm</Height>
         <Width>5.18521cm</Width>
@@ -441,7 +441,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox13</rd:DefaultName>
-        <Top>2.46917cm</Top>
+        <Top>5.32667cm</Top>
         <Left>12.94849cm</Left>
         <Height>0.6cm</Height>
         <Width>1.70625cm</Width>
@@ -471,7 +471,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Ukupno</rd:DefaultName>
-        <Top>2.46917cm</Top>
+        <Top>5.32667cm</Top>
         <Left>14.49599cm</Left>
         <Height>0.6cm</Height>
         <Width>2.02375cm</Width>
@@ -501,7 +501,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox15</rd:DefaultName>
-        <Top>2.46917cm</Top>
+        <Top>5.32667cm</Top>
         <Left>16.55974cm</Left>
         <Height>0.6cm</Height>
         <Width>1.57396cm</Width>
@@ -516,8 +516,68 @@
           <PaddingBottom>2pt</PaddingBottom>
         </Style>
       </Textbox>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!ImePrezime.Value</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>2.875cm</Top>
+        <Left>14.08654cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.08654cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Ime i prezime :</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>2.875cm</Top>
+        <Left>11.58654cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>2.875in</Height>
     <Style />
   </Body>
   <Width>10.10751in</Width>
@@ -598,7 +658,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>1.40229cm</Height>
+      <Height>1.5875cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -654,7 +714,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>41d59224-fb88-4e5b-9e26-3f5cb5d1acd6</rd:DataSourceID>
+      <rd:DataSourceID>21a9302c-aa02-4775-a77e-69f3ed5cb49f</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -714,6 +774,10 @@
         </Field>
         <Field Name="Naziv">
           <DataField>Naziv</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ImePrezime">
+          <DataField>ImePrezime</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>

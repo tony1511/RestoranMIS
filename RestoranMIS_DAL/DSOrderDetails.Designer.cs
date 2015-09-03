@@ -305,6 +305,8 @@ namespace RestoranMIS_DAL {
             
             private global::System.Data.DataColumn columnNaziv;
             
+            private global::System.Data.DataColumn columnImePrezime;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public StavkaNarudzbesDataTable() {
@@ -444,6 +446,14 @@ namespace RestoranMIS_DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn ImePrezimeColumn {
+                get {
+                    return this.columnImePrezime;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -479,7 +489,7 @@ namespace RestoranMIS_DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public StavkaNarudzbesRow AddStavkaNarudzbesRow(bool IsDeleted, int Kolicina, int NarudzbaId, int ProizvodId, int PrikaziViewModel_Id, string SifraProizvoda, string NazivProizvoda, double Cijena, double UkupnaCijena, int Ukupno, System.DateTime DatumNarudzbe, string Naziv) {
+            public StavkaNarudzbesRow AddStavkaNarudzbesRow(bool IsDeleted, int Kolicina, int NarudzbaId, int ProizvodId, int PrikaziViewModel_Id, string SifraProizvoda, string NazivProizvoda, double Cijena, double UkupnaCijena, int Ukupno, System.DateTime DatumNarudzbe, string Naziv, string ImePrezime) {
                 StavkaNarudzbesRow rowStavkaNarudzbesRow = ((StavkaNarudzbesRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -494,7 +504,8 @@ namespace RestoranMIS_DAL {
                         UkupnaCijena,
                         Ukupno,
                         DatumNarudzbe,
-                        Naziv};
+                        Naziv,
+                        ImePrezime};
                 rowStavkaNarudzbesRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowStavkaNarudzbesRow);
                 return rowStavkaNarudzbesRow;
@@ -537,6 +548,7 @@ namespace RestoranMIS_DAL {
                 this.columnUkupno = base.Columns["Ukupno"];
                 this.columnDatumNarudzbe = base.Columns["DatumNarudzbe"];
                 this.columnNaziv = base.Columns["Naziv"];
+                this.columnImePrezime = base.Columns["ImePrezime"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -568,6 +580,8 @@ namespace RestoranMIS_DAL {
                 base.Columns.Add(this.columnDatumNarudzbe);
                 this.columnNaziv = new global::System.Data.DataColumn("Naziv", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnNaziv);
+                this.columnImePrezime = new global::System.Data.DataColumn("ImePrezime", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnImePrezime);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnId}, true));
                 this.columnId.AutoIncrement = true;
@@ -921,6 +935,22 @@ namespace RestoranMIS_DAL {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string ImePrezime {
+                get {
+                    try {
+                        return ((string)(this[this.tableStavkaNarudzbes.ImePrezimeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ImePrezime\' in table \'StavkaNarudzbes\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableStavkaNarudzbes.ImePrezimeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsIsDeletedNull() {
                 return this.IsNull(this.tableStavkaNarudzbes.IsDeletedColumn);
             }
@@ -1061,6 +1091,18 @@ namespace RestoranMIS_DAL {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetNazivNull() {
                 this[this.tableStavkaNarudzbes.NazivColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsImePrezimeNull() {
+                return this.IsNull(this.tableStavkaNarudzbes.ImePrezimeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetImePrezimeNull() {
+                this[this.tableStavkaNarudzbes.ImePrezimeColumn] = global::System.Convert.DBNull;
             }
         }
         
