@@ -17,8 +17,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ExecutionTime</rd:DefaultName>
-        <Top>6.20861cm</Top>
-        <Left>12.43224cm</Left>
+        <Top>5.62653cm</Top>
+        <Left>14.28432cm</Left>
         <Height>0.6cm</Height>
         <Width>5.675cm</Width>
         <Style>
@@ -415,8 +415,8 @@
         </Style>
       </Tablix>
       <Line Name="Line1">
-        <Top>5.22083cm</Top>
-        <Left>12.98787cm</Left>
+        <Top>2.65437cm</Top>
+        <Left>13.21246cm</Left>
         <Height>0cm</Height>
         <Width>5.18521cm</Width>
         <ZIndex>2</ZIndex>
@@ -441,8 +441,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox13</rd:DefaultName>
-        <Top>5.32667cm</Top>
-        <Left>12.94849cm</Left>
+        <Top>2.76021cm</Top>
+        <Left>13.17308cm</Left>
         <Height>0.6cm</Height>
         <Width>1.70625cm</Width>
         <ZIndex>3</ZIndex>
@@ -471,8 +471,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Ukupno</rd:DefaultName>
-        <Top>5.32667cm</Top>
-        <Left>14.49599cm</Left>
+        <Top>2.76021cm</Top>
+        <Left>14.72058cm</Left>
         <Height>0.6cm</Height>
         <Width>2.02375cm</Width>
         <ZIndex>4</ZIndex>
@@ -501,8 +501,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox15</rd:DefaultName>
-        <Top>5.32667cm</Top>
-        <Left>16.55974cm</Left>
+        <Top>2.76021cm</Top>
+        <Left>16.78433cm</Left>
         <Height>0.6cm</Height>
         <Width>1.57396cm</Width>
         <ZIndex>5</ZIndex>
@@ -531,8 +531,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>2.875cm</Top>
-        <Left>14.08654cm</Left>
+        <Top>4.40958cm</Top>
+        <Left>14.31113cm</Left>
         <Height>0.6cm</Height>
         <Width>4.08654cm</Width>
         <ZIndex>6</ZIndex>
@@ -561,11 +561,41 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>2.875cm</Top>
-        <Left>11.58654cm</Left>
+        <Top>4.40958cm</Top>
+        <Left>11.81113cm</Left>
         <Height>0.6cm</Height>
         <Width>2.5cm</Width>
         <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Datum printanja :</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>5.62653cm</Top>
+        <Left>11.81113cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.02917cm</Width>
+        <ZIndex>8</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
