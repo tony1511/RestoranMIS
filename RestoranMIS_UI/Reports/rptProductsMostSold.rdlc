@@ -331,7 +331,7 @@
   <Width>8.35417in</Width>
   <Page>
     <PageHeader>
-      <Height>2.54cm</Height>
+      <Height>1.61396cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -342,7 +342,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Najprodavaniji proizvodi [na datum]</Value>
+                  <Value>Najprodavaniji proizvodi </Value>
                   <Style>
                     <FontSize>11pt</FontSize>
                     <FontWeight>Bold</FontWeight>
@@ -358,40 +358,6 @@
           <Top>0.55245cm</Top>
           <Height>0.6cm</Height>
           <Width>21.21958cm</Width>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-            <PaddingLeft>2pt</PaddingLeft>
-            <PaddingRight>2pt</PaddingRight>
-            <PaddingTop>2pt</PaddingTop>
-            <PaddingBottom>2pt</PaddingBottom>
-          </Style>
-        </Textbox>
-        <Textbox Name="Datum">
-          <CanGrow>true</CanGrow>
-          <KeepTogether>true</KeepTogether>
-          <Paragraphs>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>=First(Fields!Datum.Value, "DSProductsMostSold")</Value>
-                  <Style>
-                    <FontWeight>Bold</FontWeight>
-                  </Style>
-                </TextRun>
-              </TextRuns>
-              <Style>
-                <TextAlign>Center</TextAlign>
-              </Style>
-            </Paragraph>
-          </Paragraphs>
-          <rd:DefaultName>Datum</rd:DefaultName>
-          <Top>1.44611cm</Top>
-          <Left>7.40516cm</Left>
-          <Height>0.6cm</Height>
-          <Width>6.38938cm</Width>
-          <ZIndex>1</ZIndex>
           <Style>
             <Border>
               <Style>None</Style>
