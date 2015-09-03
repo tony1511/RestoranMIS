@@ -14,10 +14,13 @@ namespace RestoranMIS_UI.Reports
 {
     public partial class frmProductsReport : Form
     {
-        public frmProductsReport(DSProducts.ProizvodsDataTable dtProduct)
+        private string text_param = " ", cat_param = " ";
+        public frmProductsReport(DSProducts.ProizvodsDataTable dtProduct, string nazivKategorije)
         {
             InitializeComponent();
             DSProductsBindingSource.DataSource = dtProduct;
+            cat_param = nazivKategorije;
+            text_param = "";
 
         }
 
@@ -25,6 +28,12 @@ namespace RestoranMIS_UI.Reports
         {
             ReportDataSource rds = new ReportDataSource("ProductsDS", DSProductsBindingSource);
             reportViewer1.LocalReport.DataSources.Add(rds);
+            if (String.IsNullOrEmpty(text_param))
+                text_param = "Sortirano pokategoriji : ";
+          
+                
+            reportViewer1.LocalReport.SetParameters(new ReportParameter("text_param", text_param));
+            reportViewer1.LocalReport.SetParameters(new ReportParameter("cat_param", cat_param));
             this.reportViewer1.RefreshReport();
         }
     }

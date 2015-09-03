@@ -16,6 +16,7 @@ namespace RestoranMIS_UI
     {
         private DSProducts.ProizvodsDataTable dtProducts = new DSProducts.ProizvodsDataTable();
         private DSCategories.KategorijasDataTable dtCategories = new DSCategories.KategorijasDataTable();
+        
         public Frm_Products()
         {
             InitializeComponent();
@@ -69,11 +70,13 @@ namespace RestoranMIS_UI
             dgvProizvodi.AutoGenerateColumns = false;
             //Puni tabelu podacima
             dgvProizvodi.DataSource = dtProducts;
+
         }
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            frmProductsReport report = new frmProductsReport(dtProducts);
+            string nazivKategorije = cmbKategorije.DisplayMember.ToString();
+            frmProductsReport report = new frmProductsReport(dtProducts, nazivKategorije);
             report.Show();
 
         }
