@@ -14,6 +14,8 @@ namespace RestoranMIS_UI
 {
     public partial class Frm_Employees : Form
     {
+        DSEmployees.EmployeesDataTable dtEmployee = new DSEmployees.EmployeesDataTable();
+
         public Frm_Employees()
         {
             InitializeComponent();
@@ -21,11 +23,29 @@ namespace RestoranMIS_UI
 
         private void Frm_Employees_Load(object sender, EventArgs e)
         {
-            DSEmployees.EmployeesDataTable dtEmployee = new DSEmployees.EmployeesDataTable();
+            
 
-            DAEmployees.GetEmployees(dtEmployee);
+            DAEmployees.GetEmployees(dtEmployee, null, null, null, null);
             dgEmployees.AutoGenerateColumns = false;
             dgEmployees.DataSource = dtEmployee;
         }
+
+        private void btnFilter_Click(object sender, EventArgs e)
+        {
+            DAEmployees.GetEmployees(dtEmployee, txtIme.Text, txtPrezime.Text, txtUsername.Text, txtJMBG.Text); 
+        }
+
+        /*private void btnFiltriraj_Click(object sender, EventArgs e)
+        {
+            DateTime? selectedDate = dpDate.Value;
+            if (rbBezDatuma.Checked)
+                selectedDate = null;
+            DAProducts.GetProductsMostSold(dtProducts, selectedDate, txtSifraProizvoda.Text);
+
+            //Uklanja automatsko popunjavanje kolona, buduci da su kolone rucno dodane
+            dgvProizvodi.AutoGenerateColumns = false;
+            //Puni tabelu podacima
+            dgvProizvodi.DataSource = dtProducts;
+        }*/
     }
 }

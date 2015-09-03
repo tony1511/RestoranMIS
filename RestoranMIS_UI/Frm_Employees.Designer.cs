@@ -40,6 +40,15 @@
             this.BrZiroRacuna = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DatumZaposlenja = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EMail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblIme = new System.Windows.Forms.Label();
+            this.lblPrezime = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblJMBG = new System.Windows.Forms.Label();
+            this.txtIme = new System.Windows.Forms.TextBox();
+            this.txtPrezime = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtJMBG = new System.Windows.Forms.TextBox();
+            this.btnFilter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgEmployees)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,9 +67,9 @@
             this.BrZiroRacuna,
             this.DatumZaposlenja,
             this.EMail});
-            this.dgEmployees.Location = new System.Drawing.Point(12, 12);
+            this.dgEmployees.Location = new System.Drawing.Point(12, 60);
             this.dgEmployees.Name = "dgEmployees";
-            this.dgEmployees.Size = new System.Drawing.Size(1115, 415);
+            this.dgEmployees.Size = new System.Drawing.Size(1115, 367);
             this.dgEmployees.TabIndex = 0;
             // 
             // Ime
@@ -129,17 +138,101 @@
             this.EMail.HeaderText = "e-Mail";
             this.EMail.Name = "EMail";
             // 
+            // lblIme
+            // 
+            this.lblIme.AutoSize = true;
+            this.lblIme.Location = new System.Drawing.Point(13, 25);
+            this.lblIme.Name = "lblIme";
+            this.lblIme.Size = new System.Drawing.Size(27, 13);
+            this.lblIme.TabIndex = 1;
+            this.lblIme.Text = "Ime:";
+            // 
+            // lblPrezime
+            // 
+            this.lblPrezime.AutoSize = true;
+            this.lblPrezime.Location = new System.Drawing.Point(200, 25);
+            this.lblPrezime.Name = "lblPrezime";
+            this.lblPrezime.Size = new System.Drawing.Size(47, 13);
+            this.lblPrezime.TabIndex = 2;
+            this.lblPrezime.Text = "Prezime:";
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Location = new System.Drawing.Point(402, 25);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(58, 13);
+            this.lblUsername.TabIndex = 3;
+            this.lblUsername.Text = "Username:";
+            // 
+            // lblJMBG
+            // 
+            this.lblJMBG.AutoSize = true;
+            this.lblJMBG.Location = new System.Drawing.Point(610, 25);
+            this.lblJMBG.Name = "lblJMBG";
+            this.lblJMBG.Size = new System.Drawing.Size(39, 13);
+            this.lblJMBG.TabIndex = 4;
+            this.lblJMBG.Text = "JMBG:";
+            // 
+            // txtIme
+            // 
+            this.txtIme.Location = new System.Drawing.Point(46, 22);
+            this.txtIme.Name = "txtIme";
+            this.txtIme.Size = new System.Drawing.Size(144, 20);
+            this.txtIme.TabIndex = 5;
+            // 
+            // txtPrezime
+            // 
+            this.txtPrezime.Location = new System.Drawing.Point(253, 22);
+            this.txtPrezime.Name = "txtPrezime";
+            this.txtPrezime.Size = new System.Drawing.Size(143, 20);
+            this.txtPrezime.TabIndex = 6;
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(466, 22);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(138, 20);
+            this.txtUsername.TabIndex = 7;
+            // 
+            // txtJMBG
+            // 
+            this.txtJMBG.Location = new System.Drawing.Point(655, 22);
+            this.txtJMBG.Name = "txtJMBG";
+            this.txtJMBG.Size = new System.Drawing.Size(168, 20);
+            this.txtJMBG.TabIndex = 8;
+            // 
+            // btnFilter
+            // 
+            this.btnFilter.Location = new System.Drawing.Point(867, 20);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(75, 23);
+            this.btnFilter.TabIndex = 9;
+            this.btnFilter.Text = "Filtriraj";
+            this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
+            // 
             // Frm_Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 439);
+            this.Controls.Add(this.btnFilter);
+            this.Controls.Add(this.txtJMBG);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtPrezime);
+            this.Controls.Add(this.txtIme);
+            this.Controls.Add(this.lblJMBG);
+            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.lblPrezime);
+            this.Controls.Add(this.lblIme);
             this.Controls.Add(this.dgEmployees);
             this.Name = "Frm_Employees";
             this.Text = "Employees";
             this.Load += new System.EventHandler(this.Frm_Employees_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgEmployees)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -157,6 +250,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn BrZiroRacuna;
         private System.Windows.Forms.DataGridViewTextBoxColumn DatumZaposlenja;
         private System.Windows.Forms.DataGridViewTextBoxColumn EMail;
+        private System.Windows.Forms.Label lblIme;
+        private System.Windows.Forms.Label lblPrezime;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblJMBG;
+        private System.Windows.Forms.TextBox txtIme;
+        private System.Windows.Forms.TextBox txtPrezime;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtJMBG;
+        private System.Windows.Forms.Button btnFilter;
     }
 }
 
