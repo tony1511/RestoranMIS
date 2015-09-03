@@ -179,6 +179,7 @@
             this.Controls.Add(this.lblIme);
             this.Controls.Add(this.dgCustomers);
             this.Name = "Frm_Customers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Customers";
             this.Load += new System.EventHandler(this.Frm_Customers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgCustomers)).EndInit();

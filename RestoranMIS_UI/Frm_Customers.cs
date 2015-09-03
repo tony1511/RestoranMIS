@@ -29,7 +29,6 @@ namespace RestoranMIS_UI
             btnSearch_Click(null,null);
             m.MenuItems.Add(new MenuItem("View Orders", viewOrders));
             m.MenuItems.Add(new MenuItem("View Reservations", viewReservations));
-            m.MenuItems.Add(new MenuItem("View Spending Totals"));
         }
 
         private void btnSearch_Click(object sender, EventArgs e)

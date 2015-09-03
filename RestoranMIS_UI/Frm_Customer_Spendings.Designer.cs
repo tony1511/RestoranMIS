@@ -46,6 +46,7 @@
             this.lblDateTo = new System.Windows.Forms.Label();
             this.pickerTo = new System.Windows.Forms.DateTimePicker();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgSpendings)).BeginInit();
             this.SuspendLayout();
             // 
@@ -192,11 +193,22 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // btnPrint
+            // 
+            this.btnPrint.Location = new System.Drawing.Point(470, 462);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(87, 23);
+            this.btnPrint.TabIndex = 12;
+            this.btnPrint.Text = "Printaj";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+            // 
             // Frm_Customer_Spendings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(570, 462);
+            this.ClientSize = new System.Drawing.Size(570, 497);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.pickerTo);
             this.Controls.Add(this.lblDateTo);
@@ -210,7 +222,9 @@
             this.Controls.Add(this.lblIme);
             this.Controls.Add(this.dgSpendings);
             this.Name = "Frm_Customer_Spendings";
-            this.Text = "Frm_Customer_Spendings";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Customer Spendings";
             this.Load += new System.EventHandler(this.Frm_Customer_Spendings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgSpendings)).EndInit();
             this.ResumeLayout(false);
@@ -238,5 +252,6 @@
         private System.Windows.Forms.Label lblDateTo;
         private System.Windows.Forms.DateTimePicker pickerTo;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnPrint;
     }
 }

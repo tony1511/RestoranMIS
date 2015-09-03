@@ -66,11 +66,16 @@
     </Compile>
     <Compile Include="DSEmployees.cs">
       <DependentUpon>DSEmployees.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="DSEmployees.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DSEmployees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSOrderDetails.cs">
+      <DependentUpon>DSOrderDetails.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="DSOrderDetails.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -94,6 +99,7 @@
     </Compile>
     <Compile Include="DSSpendings.cs">
       <DependentUpon>DSSpendings.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="DSSpendings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -198,11 +204,61 @@
       <DependentUpon>DSSpendings.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Connection.datasource" />
+    <None Include="Properties\DataSources\DACategories.datasource" />
+    <None Include="Properties\DataSources\DACustomers.datasource" />
+    <None Include="Properties\DataSources\DAEmployees.datasource" />
+    <None Include="Properties\DataSources\DAOrderDetails.datasource" />
+    <None Include="Properties\DataSources\DAOrders.datasource" />
+    <None Include="Properties\DataSources\DAProducts.datasource" />
+    <None Include="Properties\DataSources\DAReservations.datasource" />
+    <None Include="Properties\DataSources\DASpendings.datasource" />
+    <None Include="Properties\DataSources\DSCategories.datasource" />
+    <None Include="Properties\DataSources\DSCategories.KategorijasDataTable.datasource" />
+    <None Include="Properties\DataSources\DSCategories.KategorijasRow.datasource" />
+    <None Include="Properties\DataSources\DSCategories.KategorijasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSCategories.KategorijasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSCustomers.CustomersDataTable.datasource" />
+    <None Include="Properties\DataSources\DSCustomers.CustomersRow.datasource" />
+    <None Include="Properties\DataSources\DSCustomers.CustomersRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSCustomers.CustomersRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSCustomers.datasource" />
+    <None Include="Properties\DataSources\DSEmployees.datasource" />
+    <None Include="Properties\DataSources\DSEmployees.EmployeesDataTable.datasource" />
+    <None Include="Properties\DataSources\DSEmployees.EmployeesRow.datasource" />
+    <None Include="Properties\DataSources\DSEmployees.EmployeesRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSEmployees.EmployeesRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSOrderDetails.datasource" />
+    <None Include="Properties\DataSources\DSOrderDetails.StavkaNarudzbesDataTable.datasource" />
+    <None Include="Properties\DataSources\DSOrderDetails.StavkaNarudzbesRow.datasource" />
+    <None Include="Properties\DataSources\DSOrderDetails.StavkaNarudzbesRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSOrderDetails.StavkaNarudzbesRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSOrders.datasource" />
+    <None Include="Properties\DataSources\DSOrders.NarudzbasDataTable.datasource" />
+    <None Include="Properties\DataSources\DSOrders.NarudzbasRow.datasource" />
+    <None Include="Properties\DataSources\DSOrders.NarudzbasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSOrders.NarudzbasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSProducts.datasource" />
+    <None Include="Properties\DataSources\DSProducts.ProizvodsDataTable.datasource" />
+    <None Include="Properties\DataSources\DSProducts.ProizvodsRow.datasource" />
+    <None Include="Properties\DataSources\DSProducts.ProizvodsRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSProducts.ProizvodsRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSReservations.datasource" />
+    <None Include="Properties\DataSources\DSReservations.RezervacijasDataTable.datasource" />
+    <None Include="Properties\DataSources\DSReservations.RezervacijasRow.datasource" />
+    <None Include="Properties\DataSources\DSReservations.RezervacijasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSReservations.RezervacijasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSSpendings.CustomerSpendingsDataTable.datasource" />
+    <None Include="Properties\DataSources\DSSpendings.CustomerSpendingsRow.datasource" />
+    <None Include="Properties\DataSources\DSSpendings.CustomerSpendingsRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\DSSpendings.CustomerSpendingsRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\DSSpendings.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

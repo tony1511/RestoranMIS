@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using RestoranMIS_DAL;
+using RestoranMIS_UI.Reports;
 
 namespace RestoranMIS_UI
 {
@@ -43,6 +44,12 @@ namespace RestoranMIS_UI
                 DASpendings.GetSpendings(dtSpendings, txtIme, txtPrezime, txtUsername, pickerFrom.Value, pickerTo.Value);
             dgSpendings.AutoGenerateColumns = false;
             dgSpendings.DataSource = dtSpendings;
+        }
+
+        private void btnPrint_Click(object sender, System.EventArgs e)
+        {
+            frmCustomerSpendingReport orderDetailsReport = new frmCustomerSpendingReport(dtSpendings);
+            orderDetailsReport.Show();
         }
     }
 }

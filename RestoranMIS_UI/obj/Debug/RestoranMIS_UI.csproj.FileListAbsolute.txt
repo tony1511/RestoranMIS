@@ -70,3 +70,107 @@ C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customers.resources
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customer_Spendings.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customers.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customer_Spendings.resources
+C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmCustomerSpendingReport.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe.config
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.exe
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.pdb
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.pdb
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.pdb
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csprojResolveAssemblyReference.cache
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customers.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customer_Spendings.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Employees.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_OnlineOrders.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Orders.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Products.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsMostSold.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsSold.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Reservation.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.MainForm.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Properties.Resources.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmCustomerSpendingReport.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmOrderDetailsReport.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsMostSoldReport.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsReport.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsSoldForm.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmReservationReport.resources
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csproj.GenerateResource.Cache
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.cache
+C:\Users\semir_000\Documents\Visual Studio 2013\Projects\marketNarudzba\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.compiled
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe.config
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.exe
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.pdb
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.exe
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_UI.pdb
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\RestoranMIS_DAL.pdb
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csprojResolveAssemblyReference.cache
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customers.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Customer_Spendings.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Employees.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_OnlineOrders.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Orders.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Products.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsMostSold.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_ProductsSold.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Reservation.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.MainForm.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Properties.Resources.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmCustomerSpendingReport.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmOrderDetailsReport.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsMostSoldReport.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsReport.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmProductsSoldForm.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmReservationReport.resources
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.csproj.GenerateResource.Cache
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.cache
+C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.compiled

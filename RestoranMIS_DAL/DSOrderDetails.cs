@@ -1,0 +1,3 @@
+﻿namespace RestoranMIS_DAL
+{
+}

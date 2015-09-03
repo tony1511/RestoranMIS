@@ -32,17 +32,17 @@
             this.dateDatePicker = new System.Windows.Forms.DateTimePicker();
             this.filtrirajButton = new System.Windows.Forms.Button();
             this.reservationGridView = new System.Windows.Forms.DataGridView();
+            this.btnPrint = new System.Windows.Forms.Button();
+            this.prikaziSveButton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Vrijeme = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DatumVrijeme = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Prezime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BrOsoba = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ImeRezervacije = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BrojStola = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPrint = new System.Windows.Forms.Button();
-            this.prikaziSveButton = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.reservationGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -79,7 +79,7 @@
             this.reservationGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.reservationGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
-            this.Vrijeme,
+            this.DatumVrijeme,
             this.Ime,
             this.Prezime,
             this.BrOsoba,
@@ -90,51 +90,6 @@
             this.reservationGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.reservationGridView.Size = new System.Drawing.Size(870, 333);
             this.reservationGridView.TabIndex = 7;
-            // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "Id";
-            this.Id.Name = "Id";
-            this.Id.Visible = false;
-            // 
-            // Vrijeme
-            // 
-            this.Vrijeme.DataPropertyName = "Vrijeme";
-            this.Vrijeme.HeaderText = "Datum rezervacije";
-            this.Vrijeme.Name = "Vrijeme";
-            this.Vrijeme.Width = 180;
-            // 
-            // Ime
-            // 
-            this.Ime.DataPropertyName = "Ime";
-            this.Ime.HeaderText = "Ime";
-            this.Ime.Name = "Ime";
-            this.Ime.Width = 180;
-            // 
-            // Prezime
-            // 
-            this.Prezime.DataPropertyName = "Prezime";
-            this.Prezime.HeaderText = "Prezime";
-            this.Prezime.Name = "Prezime";
-            // 
-            // BrOsoba
-            // 
-            this.BrOsoba.DataPropertyName = "BrOsoba";
-            this.BrOsoba.HeaderText = "BrOsoba";
-            this.BrOsoba.Name = "BrOsoba";
-            // 
-            // ImeRezervacije
-            // 
-            this.ImeRezervacije.DataPropertyName = "ImeRezervacije";
-            this.ImeRezervacije.HeaderText = "Ime rezervacije";
-            this.ImeRezervacije.Name = "ImeRezervacije";
-            // 
-            // BrojStola
-            // 
-            this.BrojStola.DataPropertyName = "BrojStola";
-            this.BrojStola.HeaderText = "BrojStola";
-            this.BrojStola.Name = "BrojStola";
             // 
             // btnPrint
             // 
@@ -179,6 +134,51 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Print";
             // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.Name = "Id";
+            this.Id.Visible = false;
+            // 
+            // DatumVrijeme
+            // 
+            this.DatumVrijeme.DataPropertyName = "DatumVrijeme";
+            this.DatumVrijeme.HeaderText = "Datum rezervacije";
+            this.DatumVrijeme.Name = "DatumVrijeme";
+            this.DatumVrijeme.Width = 180;
+            // 
+            // Ime
+            // 
+            this.Ime.DataPropertyName = "Ime";
+            this.Ime.HeaderText = "Ime";
+            this.Ime.Name = "Ime";
+            this.Ime.Width = 180;
+            // 
+            // Prezime
+            // 
+            this.Prezime.DataPropertyName = "Prezime";
+            this.Prezime.HeaderText = "Prezime";
+            this.Prezime.Name = "Prezime";
+            // 
+            // BrOsoba
+            // 
+            this.BrOsoba.DataPropertyName = "BrOsoba";
+            this.BrOsoba.HeaderText = "BrOsoba";
+            this.BrOsoba.Name = "BrOsoba";
+            // 
+            // ImeRezervacije
+            // 
+            this.ImeRezervacije.DataPropertyName = "ImeRezervacije";
+            this.ImeRezervacije.HeaderText = "Ime rezervacije";
+            this.ImeRezervacije.Name = "ImeRezervacije";
+            // 
+            // BrojStola
+            // 
+            this.BrojStola.DataPropertyName = "BrojStola";
+            this.BrojStola.HeaderText = "BrojStola";
+            this.BrojStola.Name = "BrojStola";
+            // 
             // Frm_Reservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,15 +207,15 @@
         private System.Windows.Forms.Button filtrirajButton;
         private System.Windows.Forms.DataGridView reservationGridView;
         private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.Button prikaziSveButton;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Vrijeme;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DatumVrijeme;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ime;
         private System.Windows.Forms.DataGridViewTextBoxColumn Prezime;
         private System.Windows.Forms.DataGridViewTextBoxColumn BrOsoba;
         private System.Windows.Forms.DataGridViewTextBoxColumn ImeRezervacije;
         private System.Windows.Forms.DataGridViewTextBoxColumn BrojStola;
-        private System.Windows.Forms.Button prikaziSveButton;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

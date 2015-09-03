@@ -102,7 +102,7 @@ SELECT Id, IsDeleted, Datum, Vrijeme, BrOsoba, Odobrena, KorisnikId, StolId, Pri
   <xs:element name="DSReservations" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSReservations" msprop:Generator_UserDSName="DSReservations">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Rezervacijas" msprop:Generator_TableClassName="RezervacijasDataTable" msprop:Generator_TableVarName="tableRezervacijas" msprop:Generator_TablePropName="Rezervacijas" msprop:Generator_RowDeletingName="RezervacijasRowDeleting" msprop:Generator_RowChangingName="RezervacijasRowChanging" msprop:Generator_RowEvHandlerName="RezervacijasRowChangeEventHandler" msprop:Generator_RowDeletedName="RezervacijasRowDeleted" msprop:Generator_UserTableName="Rezervacijas" msprop:Generator_RowChangedName="RezervacijasRowChanged" msprop:Generator_RowEvArgName="RezervacijasRowChangeEvent" msprop:Generator_RowClassName="RezervacijasRow">
+        <xs:element name="Rezervacijas" msprop:Generator_TableClassName="RezervacijasDataTable" msprop:Generator_TableVarName="tableRezervacijas" msprop:Generator_RowChangedName="RezervacijasRowChanged" msprop:Generator_TablePropName="Rezervacijas" msprop:Generator_RowDeletingName="RezervacijasRowDeleting" msprop:Generator_RowChangingName="RezervacijasRowChanging" msprop:Generator_RowEvHandlerName="RezervacijasRowChangeEventHandler" msprop:Generator_RowDeletedName="RezervacijasRowDeleted" msprop:Generator_RowClassName="RezervacijasRow" msprop:Generator_UserTableName="Rezervacijas" msprop:Generator_RowEvArgName="RezervacijasRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -124,6 +124,7 @@ SELECT Id, IsDeleted, Datum, Vrijeme, BrOsoba, Odobrena, KorisnikId, StolId, Pri
               <xs:element name="Ime" msprop:Generator_ColumnVarNameInTable="columnIme" msprop:Generator_ColumnPropNameInRow="Ime" msprop:Generator_ColumnPropNameInTable="ImeColumn" msprop:Generator_UserColumnName="Ime" type="xs:string" minOccurs="0" />
               <xs:element name="Prezime" msprop:Generator_ColumnVarNameInTable="columnPrezime" msprop:Generator_ColumnPropNameInRow="Prezime" msprop:Generator_ColumnPropNameInTable="PrezimeColumn" msprop:Generator_UserColumnName="Prezime" type="xs:string" minOccurs="0" />
               <xs:element name="BrojStola" msprop:Generator_ColumnVarNameInTable="columnBrojStola" msprop:Generator_ColumnPropNameInRow="BrojStola" msprop:Generator_ColumnPropNameInTable="BrojStolaColumn" msprop:Generator_UserColumnName="BrojStola" type="xs:int" minOccurs="0" />
+              <xs:element name="DatumVrijeme" msprop:Generator_ColumnVarNameInTable="columnDatumVrijeme" msprop:Generator_ColumnPropNameInRow="DatumVrijeme" msprop:Generator_ColumnPropNameInTable="DatumVrijemeColumn" msprop:Generator_UserColumnName="DatumVrijeme" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

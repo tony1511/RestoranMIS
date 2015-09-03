@@ -26,5 +26,10 @@ namespace RestoranMIS_UI.Reports
             reportViewer.LocalReport.DataSources.Add(rds);
             this.reportViewer.RefreshReport();
         }
+
+        private void DSOrderDetailsBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

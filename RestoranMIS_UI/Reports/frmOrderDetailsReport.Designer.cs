@@ -39,6 +39,7 @@
             // 
             this.DSOrderDetailsBindingSource.DataMember = "StavkaNarudzbes";
             this.DSOrderDetailsBindingSource.DataSource = typeof(RestoranMIS_DAL.DSOrderDetails);
+            this.DSOrderDetailsBindingSource.CurrentChanged += new System.EventHandler(this.DSOrderDetailsBindingSource_CurrentChanged);
             // 
             // reportViewer
             // 

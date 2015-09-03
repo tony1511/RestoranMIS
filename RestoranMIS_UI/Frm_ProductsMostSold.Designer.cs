@@ -34,18 +34,17 @@
             this.dpDate = new System.Windows.Forms.DateTimePicker();
             this.btnFiltriraj = new System.Windows.Forms.Button();
             this.dgvProizvodi = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SifraProizvoda = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Naziv = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Kolicina = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cijena = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UkupnoNaruceno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnPrikaziSve = new System.Windows.Forms.Button();
             this.rbBezDatuma = new System.Windows.Forms.RadioButton();
             this.rbDatum = new System.Windows.Forms.RadioButton();
             this.btnPrint = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SifraProizvoda = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Naziv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cijena = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UkupnoNaruceno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProizvodi)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -100,7 +99,6 @@
             this.Id,
             this.SifraProizvoda,
             this.Naziv,
-            this.Kolicina,
             this.Cijena,
             this.UkupnoNaruceno});
             this.dgvProizvodi.Location = new System.Drawing.Point(12, 188);
@@ -108,45 +106,6 @@
             this.dgvProizvodi.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProizvodi.Size = new System.Drawing.Size(828, 345);
             this.dgvProizvodi.TabIndex = 5;
-            // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "ProizvodID";
-            this.Id.Name = "Id";
-            this.Id.Visible = false;
-            // 
-            // SifraProizvoda
-            // 
-            this.SifraProizvoda.DataPropertyName = "SifraProizvoda";
-            this.SifraProizvoda.HeaderText = "Sifra proizvoda";
-            this.SifraProizvoda.Name = "SifraProizvoda";
-            this.SifraProizvoda.Width = 150;
-            // 
-            // Naziv
-            // 
-            this.Naziv.DataPropertyName = "Naziv";
-            this.Naziv.HeaderText = "Naziv";
-            this.Naziv.Name = "Naziv";
-            this.Naziv.Width = 250;
-            // 
-            // Kolicina
-            // 
-            this.Kolicina.DataPropertyName = "Kolicina";
-            this.Kolicina.HeaderText = "Kolicina";
-            this.Kolicina.Name = "Kolicina";
-            // 
-            // Cijena
-            // 
-            this.Cijena.DataPropertyName = "Cijena";
-            this.Cijena.HeaderText = "Cijena";
-            this.Cijena.Name = "Cijena";
-            // 
-            // UkupnoNaruceno
-            // 
-            this.UkupnoNaruceno.DataPropertyName = "UkupnoNaruceno";
-            this.UkupnoNaruceno.HeaderText = "Ukupno naruceno";
-            this.UkupnoNaruceno.Name = "UkupnoNaruceno";
             // 
             // groupBox1
             // 
@@ -217,6 +176,39 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Printanje ";
             // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "ProizvodID";
+            this.Id.Name = "Id";
+            this.Id.Visible = false;
+            // 
+            // SifraProizvoda
+            // 
+            this.SifraProizvoda.DataPropertyName = "SifraProizvoda";
+            this.SifraProizvoda.HeaderText = "Sifra proizvoda";
+            this.SifraProizvoda.Name = "SifraProizvoda";
+            this.SifraProizvoda.Width = 150;
+            // 
+            // Naziv
+            // 
+            this.Naziv.DataPropertyName = "Naziv";
+            this.Naziv.HeaderText = "Naziv";
+            this.Naziv.Name = "Naziv";
+            this.Naziv.Width = 250;
+            // 
+            // Cijena
+            // 
+            this.Cijena.DataPropertyName = "Cijena";
+            this.Cijena.HeaderText = "Cijena";
+            this.Cijena.Name = "Cijena";
+            // 
+            // UkupnoNaruceno
+            // 
+            this.UkupnoNaruceno.DataPropertyName = "UkupnoNaruceno";
+            this.UkupnoNaruceno.HeaderText = "Ukupno naruceno";
+            this.UkupnoNaruceno.Name = "UkupnoNaruceno";
+            // 
             // Frm_ProductsMostSold
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -246,17 +238,16 @@
         private System.Windows.Forms.DateTimePicker dpDate;
         private System.Windows.Forms.Button btnFiltriraj;
         private System.Windows.Forms.DataGridView dgvProizvodi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SifraProizvoda;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Naziv;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Kolicina;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cijena;
-        private System.Windows.Forms.DataGridViewTextBoxColumn UkupnoNaruceno;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rbBezDatuma;
         private System.Windows.Forms.RadioButton rbDatum;
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnPrikaziSve;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SifraProizvoda;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Naziv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cijena;
+        private System.Windows.Forms.DataGridViewTextBoxColumn UkupnoNaruceno;
     }
 }
