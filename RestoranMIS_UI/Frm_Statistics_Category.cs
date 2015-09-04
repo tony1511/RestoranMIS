@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using RestoranMIS_DAL;
+using RestoranMIS_UI.Reports;
 
 namespace RestoranMIS_UI
 {
@@ -34,11 +35,11 @@ namespace RestoranMIS_UI
             //Puni tabelu podacima
 
             chart_cat.DataSource = dtCategory; 
-            //set the member of the chart data source used to data bind to the X-values of the series  
+            
             chart_cat.Series["Kategorije"].XValueMember = "NazivKategorije";
-            //set the member columns of the chart data source used to data bind to the X-values of the series  
+            
             chart_cat.Series["Kategorije"].YValueMembers = "Udio";
-            chart_cat.Titles.Add("Prodano po kategorijama"); 
+            chart_cat.Titles.Add("Udio prodanih proizvoda po kategorijama"); 
             
         }
 
@@ -46,18 +47,24 @@ namespace RestoranMIS_UI
         {
             chart_cat.Titles.Clear();
 
-            DSStatisticOrdersByCategory.usp_OrderStatisticByCategoryDataTable dtCategory1 = new DSStatisticOrdersByCategory.usp_OrderStatisticByCategoryDataTable();
+             dtCategory = new DSStatisticOrdersByCategory.usp_OrderStatisticByCategoryDataTable();
 
             //Poziva Klasu DAOrders, gdje mu salje dva parametra, datum pocetka i datum kraja za filtriranje podataka
-            DAOrders.GetStatisticOrderByCategory(dtCategory1, startDate.Value, endDate.Value);
+             DAOrders.GetStatisticOrderByCategory(dtCategory, startDate.Value, endDate.Value);
 
-            
-            chart_cat.DataSource = dtCategory1;
+
+             chart_cat.DataSource = dtCategory;
             //set the member of the chart data source used to data bind to the X-values of the series  
             chart_cat.Series["Kategorije"].XValueMember = "NazivKategorije";
             //set the member columns of the chart data source used to data bind to the X-values of the series  
             chart_cat.Series["Kategorije"].YValueMembers = "Udio";
-            chart_cat.Titles.Add("Prodano po kategorijama");
+            chart_cat.Titles.Add("Udio prodanih proizvoda po kategorijama"); 
+        }
+
+        private void btn_Print_Click(object sender, EventArgs e)
+        {
+            frmCategoryProductStatistics statisticsReport = new frmCategoryProductStatistics(dtCategory);
+            statisticsReport.Show();
         }
     }
 }

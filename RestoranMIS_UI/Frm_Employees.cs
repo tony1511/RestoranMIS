@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using RestoranMIS_DAL;
+using RestoranMIS_UI.Reports;
 
 namespace RestoranMIS_UI
 {
@@ -33,6 +34,12 @@ namespace RestoranMIS_UI
         private void btnFilter_Click(object sender, EventArgs e)
         {
             DAEmployees.GetEmployees(dtEmployee, txtIme.Text, txtPrezime.Text, txtUsername.Text, txtJMBG.Text); 
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            frmEmployeesForm employeesForm = new frmEmployeesForm(dtEmployee);
+            employeesForm.Show();
         }
 
         /*private void btnFiltriraj_Click(object sender, EventArgs e)

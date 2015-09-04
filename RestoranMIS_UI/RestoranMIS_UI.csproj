@@ -149,11 +149,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\frmCategoryProductStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmCategoryProductStatistics.Designer.cs">
+      <DependentUpon>frmCategoryProductStatistics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\frmCustomerSpendingReport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reports\frmCustomerSpendingReport.Designer.cs">
       <DependentUpon>frmCustomerSpendingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmEmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmEmployeesForm.Designer.cs">
+      <DependentUpon>frmEmployeesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\frmOrderDetailsReport.cs">
       <SubType>Form</SubType>
@@ -228,8 +240,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reports\frmCategoryProductStatistics.resx">
+      <DependentUpon>frmCategoryProductStatistics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\frmCustomerSpendingReport.resx">
       <DependentUpon>frmCustomerSpendingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmEmployeesForm.resx">
+      <DependentUpon>frmEmployeesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\frmOrderDetailsReport.resx">
       <DependentUpon>frmOrderDetailsReport.cs</DependentUpon>
@@ -247,7 +265,9 @@
     <EmbeddedResource Include="Reports\frmReservationReport.resx">
       <DependentUpon>frmReservationReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptCategoryProductStatistics.rdlc" />
     <EmbeddedResource Include="Reports\rptCustomerSpending.rdlc" />
+    <EmbeddedResource Include="Reports\rptEmployers.rdlc" />
     <EmbeddedResource Include="Reports\rptOrderDetails.rdlc" />
     <EmbeddedResource Include="Reports\rptProducts.rdlc" />
     <EmbeddedResource Include="Reports\rptProductsMostSold.rdlc" />
@@ -326,6 +346,7 @@
     <None Include="Properties\DataSources\RestoranMIS_DAL.DSSpendingsTableAdapters.CustomerSpendingsTableAdapter.datasource" />
     <None Include="Properties\DataSources\RestoranMIS_DAL.DSSpendingsTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
     <None Include="Properties\DataSources\RestoranMIS_DAL.DSSpendingsTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\RestoranMIS_DAL.DSStatisticOrdersByCategory.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

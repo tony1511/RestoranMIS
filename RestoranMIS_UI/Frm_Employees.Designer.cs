@@ -49,6 +49,7 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtJMBG = new System.Windows.Forms.TextBox();
             this.btnFilter = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgEmployees)).BeginInit();
             this.SuspendLayout();
             // 
@@ -212,11 +213,22 @@
             this.btnFilter.UseVisualStyleBackColor = true;
             this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
+            // btnPrint
+            // 
+            this.btnPrint.Location = new System.Drawing.Point(1121, 22);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(75, 23);
+            this.btnPrint.TabIndex = 10;
+            this.btnPrint.Text = "Printaj";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+            // 
             // Frm_Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1239, 439);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnFilter);
             this.Controls.Add(this.txtJMBG);
             this.Controls.Add(this.txtUsername);
@@ -259,6 +271,7 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtJMBG;
         private System.Windows.Forms.Button btnFilter;
+        private System.Windows.Forms.Button btnPrint;
     }
 }
 
