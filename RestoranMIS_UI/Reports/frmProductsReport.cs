@@ -20,7 +20,7 @@ namespace RestoranMIS_UI.Reports
             InitializeComponent();
             DSProductsBindingSource.DataSource = dtProduct;
             cat_param = nazivKategorije;
-            text_param = "";
+            text_param = " ";
 
         }
 
@@ -28,9 +28,10 @@ namespace RestoranMIS_UI.Reports
         {
             ReportDataSource rds = new ReportDataSource("ProductsDS", DSProductsBindingSource);
             reportViewer1.LocalReport.DataSources.Add(rds);
-            if (String.IsNullOrEmpty(text_param))
+            if (String.IsNullOrEmpty(cat_param) || cat_param != "Odaberite kategoriju")
                 text_param = "Sortirano pokategoriji : ";
-          
+            else
+                cat_param = " ";
                 
             reportViewer1.LocalReport.SetParameters(new ReportParameter("text_param", text_param));
             reportViewer1.LocalReport.SetParameters(new ReportParameter("cat_param", cat_param));

@@ -75,7 +75,8 @@ namespace RestoranMIS_UI
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            string nazivKategorije = cmbKategorije.DisplayMember.ToString();
+            
+            string nazivKategorije = cmbKategorije.Text;
             frmProductsReport report = new frmProductsReport(dtProducts, nazivKategorije);
             report.Show();
 
