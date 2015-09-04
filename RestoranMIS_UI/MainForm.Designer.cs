@@ -43,6 +43,8 @@
             this.customersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customerDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customerSpendingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statisticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.categoryStatisticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +55,8 @@
             this.employersToolStripMenuItem,
             this.reservationsToolStripMenuItem,
             this.productsToolStripMenuItem,
-            this.customersToolStripMenuItem});
+            this.customersToolStripMenuItem,
+            this.statisticsToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(720, 24);
@@ -167,6 +170,21 @@
             this.customerSpendingsToolStripMenuItem.Text = "Customer Spendings";
             this.customerSpendingsToolStripMenuItem.Click += new System.EventHandler(this.customerSpendingsToolStripMenuItem_Click);
             // 
+            // statisticsToolStripMenuItem
+            // 
+            this.statisticsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.categoryStatisticsToolStripMenuItem});
+            this.statisticsToolStripMenuItem.Name = "statisticsToolStripMenuItem";
+            this.statisticsToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.statisticsToolStripMenuItem.Text = "Statistics";
+            // 
+            // categoryStatisticsToolStripMenuItem
+            // 
+            this.categoryStatisticsToolStripMenuItem.Name = "categoryStatisticsToolStripMenuItem";
+            this.categoryStatisticsToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.categoryStatisticsToolStripMenuItem.Text = "Category Statistics";
+            this.categoryStatisticsToolStripMenuItem.Click += new System.EventHandler(this.categoryStatisticsToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,5 +223,7 @@
         private System.Windows.Forms.ToolStripMenuItem customersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customerDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customerSpendingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem statisticsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem categoryStatisticsToolStripMenuItem;
     }
 }

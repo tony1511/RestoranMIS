@@ -84,5 +84,12 @@ namespace RestoranMIS_UI
         {
 
         }
+
+        private void categoryStatisticsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Statistics_Category statistics = new Frm_Statistics_Category();
+            statistics.MdiParent = this;
+            statistics.Show();
+        }
     }
 }

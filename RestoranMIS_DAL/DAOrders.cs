@@ -70,5 +70,36 @@ namespace RestoranMIS_DAL
             }
         }
 
+        public static void GetStatisticOrderByCategory(
+            DSStatisticOrdersByCategory.usp_OrderStatisticByCategoryDataTable dtStatisticByCategoryDataTable,
+            DateTime? startDate, DateTime? endDate)
+        {
+            //Brise sve elemente iz tabele dtOrders, svakim pozivom ove funkcije tabela se prazni te se dodaju novi podaci
+            dtStatisticByCategoryDataTable.Clear();
+
+            SqlConnection cn = Connection.GetConnection();
+            if (cn.State == ConnectionState.Closed)
+                cn.Open();
+            try
+            {
+                SqlCommand cmd = new SqlCommand("usp_OrderStatisticByCategory", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                if (startDate != null && endDate != null)
+                {
+                    cmd.Parameters.Add("@DateBegin", SqlDbType.DateTime).Value = startDate;
+                    cmd.Parameters.Add("@DateEnd", SqlDbType.DateTime).Value = endDate;
+                }
+
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(dtStatisticByCategoryDataTable);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
     }
 }
