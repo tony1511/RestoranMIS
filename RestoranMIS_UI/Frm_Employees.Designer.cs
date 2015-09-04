@@ -69,7 +69,7 @@
             this.EMail});
             this.dgEmployees.Location = new System.Drawing.Point(12, 60);
             this.dgEmployees.Name = "dgEmployees";
-            this.dgEmployees.Size = new System.Drawing.Size(1115, 367);
+            this.dgEmployees.Size = new System.Drawing.Size(1184, 367);
             this.dgEmployees.TabIndex = 0;
             // 
             // Ime
@@ -216,7 +216,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 439);
+            this.ClientSize = new System.Drawing.Size(1239, 439);
             this.Controls.Add(this.btnFilter);
             this.Controls.Add(this.txtJMBG);
             this.Controls.Add(this.txtUsername);
