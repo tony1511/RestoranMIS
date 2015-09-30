@@ -176,3 +176,4 @@ C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\
 C:\Users\semir_000\Desktop\MIS_seminarski\Upload\RestoranMIS\RestoranMIS_UI\obj\Debug\RdlCompile.compiled
 C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Reports.frmCustomerSpendingReport.resources
 C:\Users\semir_000\Documents\GitHub\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Statistics_Category.resources
+C:\C#\GitHub Repos\RestoranMIS\RestoranMIS_UI\obj\Debug\RestoranMIS_UI.Frm_Statistics_Category.resources
